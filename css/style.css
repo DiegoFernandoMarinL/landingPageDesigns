@@ -4,3 +4,17 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    display: grid;
+    grid-template-rows: auto auto auto;
+    background-color: #2195f300;
+    padding: 20px;
+    font-family: ;
+  }
+.grid-item {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+  }
+.grid-item1 {
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 10%;
+  }  
