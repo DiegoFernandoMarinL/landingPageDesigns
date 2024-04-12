@@ -1,20 +1,46 @@
 @import url(variables.css);
-*{
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
+
 body {
-    display: grid;
-    grid-template-rows: auto auto auto;
-    background-color: #2195f300;
-    padding: 20px;
-    font-family: ;
-  }
-.grid-item {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-  }
+  display: grid;
+  grid-template-rows: auto auto auto;
+  background-color: #2195f300;
+  padding: 35px;
+}
+
 .grid-item1 {
-    border: 1px solid rgba(0, 0, 0, 0.8);
-    padding: 10%;
-  }  
+  font-family: "Avenir";
+  text-align: center;
+  padding-top: 2%;
+}
+
+img {
+  padding-top: 1%;
+  height: auto;
+}
+
+#boton {
+  width: 8%;
+}
+
+#img1 , #img2 {
+  width: 100%;
+}
+
+h1 p {
+  color: #252525;
+}
+
+h1 {
+  font-size: 30px;
+}
+p {
+  padding-top: 1%;
+  font-size: 11.4px;
+  opacity: 80%;
+}
