@@ -5,10 +5,19 @@
     box-sizing: border-box;
 }
 .section__contentImage {
- background: red;
+ /*background: red;*/
+ display: grid;
+ height: 28vw;
+ grid-template-columns: auto auto auto;
+ justify-content: center;
 }
-.article_content {
-
+.article__content {
+    /*background: gray;*/
+    width: 20vw;
+    font-family: "Avenir";
+    font-size: 2vw;
+    padding-top: 1.5vw;
+    padding-left: 1vw;
 }
 .article__content h1,
 .article__content p,
@@ -16,26 +25,48 @@
 
 }
 .article__content h1 {
-
+    margin-top: 4vw;
+    font-size: 2.5vw;
 }
 .article__content p {
-
+    margin-top: 0.8vw;
+    font-size: 1.15vw;
+    color: #252525
 }
 .article__content div {
-
+    background: #252525;
+    font-size: 0.8vw;
+    color: #ffffff;
+    border-radius: 0.7vw;
+    text-align: center;
+    width: 7vw;
+    margin-top: 0.8vw;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
 }
 .article__images{
-
+    /*background: blue;*/
+    width: 19vw;
+    display: flex;
+    padding-top: 2vw;
 }
-.article__images:first-child {
-
+.article__images img {
+    width: 17vw;
 }
-.article__images:last-child {
-
+#imageLeft {
+    align-self: flex-start;
+}
+#imageRight {
+    align-self: flex-end;
 }
 
 .section__images {
-    background: green;
+    /*background: green;*/
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    padding-top: 3vw;
+    padding-left: 1vw;
 }
 .image__card {
 }
@@ -44,8 +75,11 @@
 }
 
 .image__card p {
-
+    font-family: "Avenir";
+    color: #252525;
+    opacity: 25%;
 }
 .image__card img {
-
+    width: 17vw;
+    margin-right: 2vw;
 }
