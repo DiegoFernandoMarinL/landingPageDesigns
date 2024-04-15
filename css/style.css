@@ -5,42 +5,50 @@
   margin: 0;
   box-sizing: border-box;
 }
-
-body {
-  display: grid;
-  grid-template-rows: auto auto auto;
-  background-color: #2195f300;
-  padding: 35px;
+.section__content {
+    width: 100%;
+    height: 40%;
+    /*background: red;*/
+    display: grid;
+    justify-content: center;
 }
-
-.grid-item1 {
-  font-family: "Avenir";
-  text-align: center;
-  padding-top: 2%;
+.section__content h1,
+.section__content p,
+.section__content div {
+    text-align: center;
+    font-family: "Avenir";
+    margin-bottom: 2%;
 }
-
-img {
-  padding-top: 1%;
-  height: auto;
+.section__content h1 {
+    padding-top: 2vw;
+    font-size: 3.5vw;
+    /*background: yellow;*/
 }
-
-#boton {
-  width: 8%;
+.section__content p {
+    padding-top: 0.5vw;
+    font-size: 1.35vw;
+    color: #252525;
+    margin-bottom: 6%;
+    /*background: orange;*/
 }
-
-#img1 , #img2 {
-  width: 100%;
+.section__content div {
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    font-size: 1vw;
+    margin-left: 34%;
+    margin-right: 34%;
+    background: #252525;
+    border-radius: 1vw;
+    color: #ffffff;
 }
-
-h1 p {
-  color: #252525;
+.section__img {
+    /*background: blue;*/
+    display: flex;
+    width: 100%; 
 }
-
-h1 {
-  font-size: 30px;
-}
-p {
-  padding-top: 1%;
-  font-size: 11.4px;
-  opacity: 80%;
+.section__img img{
+    padding-top: 2%;
+    padding-bottom: 5%;
+    width: 360vw;
+    height:45vw;
 }
