@@ -4,3 +4,44 @@
     margin: 0;
     box-sizing: border-box;
 }
+.section__content {
+
+}
+.section__content h1,
+.section__content p,
+.section__content div {
+
+}
+.section__content h1 {
+
+}
+.section__content p {
+
+}
+.section__content div {
+
+}
+.section__imagesTop {
+
+}
+.section__imagesTop:first-child {
+
+}
+.section__imagesTop:last-child {
+
+}
+.section__imagesButton {
+}
+
+.image__card {
+}
+.image__card p,
+.image__card img {
+}
+
+.image__card p {
+
+}
+.image__card img {
+    
+}
