@@ -4,3 +4,43 @@
     margin: 0;
     box-sizing: border-box;
 }
+.section__content {
+    background: blue;
+    padding: 1vw;
+}
+.article__image {
+    background: red;
+}
+.article__image img {
+
+}
+.article__headline {
+    background: green;
+}
+.article__headline h1,
+.article__headline p,
+.article__headline div {
+
+}
+.article__headline h1 {
+
+}
+.article__headline p {
+
+}
+.article__headline div {
+
+}
+.article__textlist {
+    background: orange;
+}
+.article__textlist div,
+.article__textlist p {
+
+}
+.article__textlist div {
+
+}
+.article__textlist p {
+
+}
