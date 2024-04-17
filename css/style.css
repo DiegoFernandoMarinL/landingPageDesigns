@@ -4,3 +4,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+.section__title {
+    background: red;
+}
+.section__title h1{
+
+}
+.section__content {
+    background: blue;
+}
+.article__card {
+    background: green;
+}
+.article__card div {
+
+}
+.article__card p {
+    
+}
+.article__card img {
+    
+}
