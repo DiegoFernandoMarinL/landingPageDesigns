@@ -4,43 +4,75 @@
     margin: 0;
     box-sizing: border-box;
 }
-.section__content {
-    background: blue;
-    padding: 1vw;
+main{
+    display: flex;/*
+    /*backgroun*: blue;*/
+    padding-top: 3vw;
 }
-.article__image {
-    background: red;
+.section__image {
+    /*background: red;*/
+    width: 50%;
+    display: flex;
+    justify-content: right;
 }
-.article__image img {
+.section__image img {
+    width: 72%;
+}
 
+.section__content {
+    /*background: yellow;*/
+    display: grid;
+    width: 50%;
+    font-family: "Avenir";
+    text-align: left;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    grid-column: 14vw;
+    padding-top: 1vw;
 }
 .article__headline {
-    background: green;
+    /*background: green;*/
+    width: 72%;
+    margin-bottom: 3vw;
 }
 .article__headline h1,
 .article__headline p,
 .article__headline div {
-
+    padding-bottom: 1vw;
 }
 .article__headline h1 {
-
+    font-size: 3.5vw;
+    color: #252525;
 }
 .article__headline p {
-
+    font-size: 1.37vw;
+    color: #252525;
+    opacity: 80%;
 }
 .article__headline div {
-
+    background: #252525;
+    text-align: center;
+    padding-top: 0.7vw;
+    font-size: 0.8vw;
+    width: 7vw;
+    border-radius: 0.7vw;
+    color: #ffffff;
+    height: 2.4vw;
 }
 .article__textlist {
-    background: orange;
+    /*background: orange;*/
+    width: 72%;
+    
 }
 .article__textlist div,
 .article__textlist p {
-
+    color: #252525;
 }
 .article__textlist div {
-
+    opacity: 55%;
+    font-size: 1.5vw;
 }
 .article__textlist p {
-
+    font-size: 1.37vw;
+    opacity: 80%;
 }
