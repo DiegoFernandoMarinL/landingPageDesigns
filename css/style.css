@@ -5,17 +5,52 @@
     box-sizing: border-box;
 }
 .section__content {
+    /*background: blue;*/
+    display: grid;
+    grid-template-columns: auto auto;
+    padding-top: 3vw;
+    height: 14vw;
+    column-gap: 4vw;
 }
 .section__content h1,
 .section__content p,
 .section__content div {
+    font-family: "Avenir";
 }
 .section__content h1 {
+    font-size: 3.5vw;
+    margin: 0.7vw;
+    text-align: right;
+    /*background: green;*/
+    height: 5vw;
 }
 .section__content p {
+    /*background: yellow;*/
+    padding-top: 1vw;
+    padding-left: 0.7vw;
+    font-size: 1.3vw;
+    height: 6vw;
+    color: #252525;
 }
 .section__content div {
+    background: #252525;
+    margin-left: 53.6vw;
+    margin-right: 39vw;
+    grid-column-start: 1;
+    grid-column-end: 3;
+    text-align: center;
+    font-size: 0.8vw;
+    color: #ffffff;
+    border-radius: 0.7vw;
+    padding-top: 0.5vw;
+    height: 2vw;
+    margin-bottom: 4vw;
 }
 
 .section__image {
+    /*background: red;*/
+    text-align: center;
+}
+.section__image img{
+    width: 55vw;
 }
