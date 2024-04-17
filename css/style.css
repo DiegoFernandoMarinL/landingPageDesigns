@@ -4,24 +4,42 @@
     margin: 0;
     box-sizing: border-box;
 }
+main{
+    color: var(--color-1);
+    font-family: "Avenir";
+}
 .section__title {
-    background: red;
+    /*background: red;*/
+    padding: var(--padding-titulo-tblr);
+    font-size: 3vw;
 }
 .section__title h1{
 
 }
 .section__content {
-    background: blue;
+    /*background: blue;*/
+    display: grid;
+    grid-template-columns: auto auto auto;
+    padding: var(--padding-tblr);
+    justify-content: space-evenly;
 }
 .article__card {
-    background: green;
+    /*background: green;*/
+}
+.article__card div,
+.article__card p,
+.article__card img{
+    display: flex;
+    align-content: space-around;
 }
 .article__card div {
-
+    padding-bottom: 1vw;
+    font-size: 1.6vw;
 }
 .article__card p {
-    
+    padding-bottom: 2vw;
+    font-size: 1.3vw;
 }
 .article__card img {
-    
+    width: 23.1vw;
 }

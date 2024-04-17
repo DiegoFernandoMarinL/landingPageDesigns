@@ -1,5 +1,7 @@
 :root{
-    --color-prymary: #5a99f8;
+    --color-1: #252525;
+    --padding-titulo-tblr: 2vw 10.5vw 2vw 10.5vw;
+    --padding-tblr: 2vw 6vw 2vw 6vw;
 }
 @font-face {
     font-family: "Avenir";
