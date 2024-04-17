@@ -1,3 +1,7 @@
 :root{
     --color-prymary: #5a99f8;
 }
+@font-face {
+    font-family: "Avenir";
+    src: url(../storage/font/Avenir/AvenirLTStd-Roman.otf);
+}
