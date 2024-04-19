@@ -2,12 +2,19 @@
     --color-1: #000000;
     --color-2: #333333;
     --color-3: #ffffff;
+    --space-layout-tb: 2vw;
+    --space-layout-blr: 0 1vw 1vw 1vw;
+    --space-botton-tblr: 0.8vw 3vw 0.8vw 3vw;
 }
 @font-face {
     font-family: "PlayFairDisplay";
     src: url(../storage/font/PalyfairDisplay/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
     font-family: "WorkSans_Regular";
     src: url(../storage/font/WorkSans/WorkSans-Regular.ttf);
+}
+@font-face {
     font-family: "WorkSans_Medium";
     src: url(../storage/font/WorkSans/WorkSans-Medium.ttf);
 }
