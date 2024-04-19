@@ -1,3 +1,16 @@
 :root{
-    --color-prymary: #5a99f8;
+    --color-background: #AB2706;
+    --color-1: #E5B94B;
+}
+@font-face {
+    font-family: "WorSans-Bold";
+    src: url(../storage/font/WorkSans/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-light";
+    src: url(../storage/font/WorkSans/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../storage/font/WorkSans/WorkSans-Medium.ttf);
 }
