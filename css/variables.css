@@ -6,4 +6,8 @@
 @font-face {
     font-family: "PlayFairDisplay";
     src: url(../storage/font/PalyfairDisplay/PlayfairDisplay-Bold.ttf);
+    font-family: "WorkSans_Regular";
+    src: url(../storage/font/WorkSans/WorkSans-Regular.ttf);
+    font-family: "WorkSans_Medium";
+    src: url(../storage/font/WorkSans/WorkSans-Medium.ttf);
 }
