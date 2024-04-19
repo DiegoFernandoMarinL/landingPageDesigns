@@ -4,3 +4,24 @@
     margin: 0;
     box-sizing: border-box;
 }
+main {
+    display: flex;
+    justify-content: center;
+}
+.section__content {
+}
+.article__button {
+    display: flex;
+}
+.article__button div:first-child {
+    background: var(--color-1);
+    font
+}
+.article__button div:last-child {
+    background: gray;
+}
+.article__list {
+}
+.section__image {
+    
+}
