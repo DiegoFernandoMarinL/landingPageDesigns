@@ -11,8 +11,8 @@ main {
     /* background: red; */
 }
 .section__content {
-    background: yellow;
-    width: 50%;
+    /* background: yellow; */
+    width: 45vw;
 }
 .section__content h1 {
     font-family: "PlayFairDisplay";
@@ -51,10 +51,14 @@ main {
     padding: 1vw;
     font-family: "WorkSans_Regular";
     font-size: 1vw;
+    border-radius: 8px;
+    margin-right: 4.5vw;
 }
 .article__list div{
     display: flex;
     flex-direction: column;
+    width: 5vw;
+    /* background: orange; */
 }
 .article__list div img {
     width: 1.5vw;
