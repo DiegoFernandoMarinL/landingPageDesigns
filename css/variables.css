@@ -1,5 +1,7 @@
 :root{
     --color-1: #252525;
+    --padding-tblr: 0 7vw 0 7vw;
+    --margin-article-b: 1vw;
 }
 @font-face {
     font-family: "Avenir";
