@@ -4,7 +4,42 @@
     margin: 0;
     box-sizing: border-box;
 }
+main {
+    background: var(--color-background);
+    display: flex;
+    padding: 5vw 12vw 0 12vw;
+    justify-content: space-around;
+}
 .section__image {
 }
+.section__image img {
+    width: 33.9vw;
+}
 .section__content {
+    /* background: yellow; */
+    padding: 5vw 2vw 0 2vw;
+    width: 30vw;
+}
+.section__content h1{
+    font-family: "WorkSans-Bold";
+    font-size: 4vw;
+    color: #ffffff;
+    margin-bottom: 2vw;
+}
+.section__content p{
+    font-family: "WorkSans-light";
+    font-size: 1.1vw;
+    color: #ffffff;
+    margin-bottom: 2vw;
+}
+.section__content div {
+    font-family: "WorkSans-Medium";
+    font-size: 1.5vw;
+    color: #000000;
+    background: var(--color-1);
+    display: flex;
+    justify-content: center;
+    padding: 1vw 0 1vw 0;
+    width: 11vw;
+    border-radius: 20px;
 }
