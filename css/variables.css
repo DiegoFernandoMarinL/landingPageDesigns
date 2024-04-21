@@ -1,5 +1,6 @@
 :root{
-    --color-prymary: #5a99f8;
+    --color-background-1: #C8CCCF;
+    --color-background-1: #97A3A3;
 }
 @font-face {
     font-family: "Poppins-Bold";
