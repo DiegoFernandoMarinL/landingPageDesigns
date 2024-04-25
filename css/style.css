@@ -4,3 +4,90 @@
     margin: 0;
     box-sizing: border-box;
 }
+.section__content {
+    display: flex;
+    /* background: green; */
+    padding-top: 3vw;
+    justify-content: center;
+}
+.article__content {
+    width: 35%;
+    /* background: red; */
+    padding-top: 2vw;
+}
+.article__content h1 {
+    /* background: orange; */
+    width: 32vw;
+    font-family: "Avenir";
+    font-size: 4vw;
+    margin-bottom: 2vw;
+    color: var(--color-1);
+}
+.article__content p {
+    /* background: orange; */
+    font-family: "Avenir";
+    width: 32vw;
+    font-size: 1.4vw;
+    margin-bottom: 2vw;
+    color: var(--color-1);
+}
+.article__content div {
+    font-family: "Poppins-Regular";
+    background: var(--color-1);
+    color: var(--color-2);
+    width: 9.5vw;
+    height: 2.8vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 12vw;
+    font-size: 1.4vw;
+}
+.article__image {
+    /* background: yellow; */
+    display: flex;
+    width: 35%;
+    padding-left: 2vw;
+    justify-content: center;
+}
+.article__image div {
+    /* background: blue; */
+    width: 100%;
+}
+.article__image div img:first-child {
+    position: absolute;
+    margin-left: 2.5vw;
+    z-index: -1;
+    width: 17vw;
+}
+.article__image div img:last-child {
+    margin-top: 8vw;
+    margin-left: 15.7vw;
+    width: 17vw;
+}
+.section__list {
+    display: flex;
+    /* background: green; */
+    padding-top: 3vw;
+    justify-content: center;
+}
+.section__list div {
+    background: var(--color-1);
+    display: flex;
+    justify-content: space-between;
+    color: var(--color-2);
+    font-family: "Avenir";
+    width: 70%;
+    border-radius: 1vw;
+    padding: 3vw;
+}
+.article__list {
+    width: 15vw;
+}
+.article__list h3 {
+    margin-bottom: 1vw;
+    font-size: 1vw;
+} 
+.article__list p {
+    font-size: 0.9vw;
+} 
