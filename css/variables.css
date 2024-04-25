@@ -1,5 +1,10 @@
 :root{
-    --color-prymary: #5a99f8;
+    --color-1: #2F2F2F;
+    --color-2: #FEC3C7;
+    --color-3: #9AD7F3;
+    --color-4: #6BDFDA;
+    --color-5: #232323;
+    --color-6: #ffffff;
 }
 @font-face {
     font-family: "Poppins-Regular";
