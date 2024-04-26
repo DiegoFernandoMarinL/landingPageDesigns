@@ -4,6 +4,53 @@
     margin: 0;
     box-sizing: border-box;
 }
+.section__background {
+    display: flex;
+    justify-content: center;
+}
+.section__background img {
+    position: absolute;
+    width: 70vw;
+    z-index: -1;
+}
 .section__content {
-    
+    width: 100%;
+    /* background: green; */
+}
+.article__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* background: yellow; */
+    height: 49vw;
+    margin-top: 8vw;
+}
+.article__content h1 {
+    /* background: orange; */
+    width: 40vw;
+    font-family: "Lato-Bold";
+    font-size: 4vw;
+    margin-bottom: 1vw;
+    color: var(--color-1);
+}
+.article__content p {
+    /* background: purple; */
+    width: 32vw;
+    font-family: "Lato-Regular";
+    font-size: 1.2vw;
+    margin-bottom: 2vw;
+    color: var(--color-1);
+}
+.article__content div {
+    background: var(--color-1);
+    color: var(--color-2);
+    font-size: 1.2vw;
+    font-family: "Lato-Regular";
+    width: 12vw;
+    height: 4vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10vw;
 }
