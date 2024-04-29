@@ -1,3 +1,20 @@
 :root{
-    --color-prymary: #5a99f8;
+    --color-1: #333333;
+    --color-2: #ffffff;
+    --color-3: #F1C2B0;
+    --color-4: #F9EB98;
+    --color-5: #C0D9DD;
+    --color-6: #6975E8;
+}
+@font-face {
+    font-family: "RobotoMono-Bold";
+    src: url(../storage/font/Roboto/RobotoMono-Bold.ttf);
+}
+@font-face {
+    font-family: "RobotoMono-Medium";
+    src: url(../storage/font/Roboto/RobotoMono-Medium.ttf);
+}
+@font-face {
+    font-family: "RobotoMono-Regular";
+    src: url(../storage/font/Roboto/RobotoMono-Regular.ttf);
 }
