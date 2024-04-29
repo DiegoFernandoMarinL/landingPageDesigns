@@ -4,13 +4,97 @@
     margin: 0;
     box-sizing: border-box;
 }
+main {
+}
 .section__content {
+    /* background: red; */
+    display: flex;
+    justify-content: center;
+    height: 30vw;
 }
 .article__content {
+    /* background: yellow; */
+    margin: 4vw 1vw 0 10vw;
+    width: 40vw;
+}
+.article__content h1 {
+    font-family: "RobotoMono-Bold";
+    font-size: 4vw;
+    margin-bottom: 1vw;
+    color: var(--color-1);
+}
+.article__content p {
+    width: 33vw;
+    font-family: "RobotoMono-Regular";
+    font-size: 1.6vw;
+    color: var(--color-1);
+    margin-bottom: 1.8vw;
+}
+.article__content div {
+    background: var(--color-1);
+    width: 17vw;
+    color: var(--color-2);
+    font-family: "RobotoMono-Medium";
+    text-align: center;
+    padding: 0.7vw;
+    border-radius: 2vw;
+    font-size: 1.5vw;
 }
 .article__image {
+    /* background: orange; */
+    margin: 4vw 7vw 0 0;
+    padding-right: 4vw;
+}
+.article__image img {
+    width: 38vw;
 }
 .section__cards {
+    /* background: red; */
+    display: flex;
+    justify-content: space-between;
+    padding: 2vw 10vw 0 10vw;
+}
+.section__cards article:nth-child(1) {
+    background: var(--color-3);
+}
+.section__cards article:nth-child(2) {
+    background: var(--color-4);
+}
+.section__cards article:nth-child(3) {
+    background: var(--color-5);
+}
+.section__cards article:nth-child(4) {
+    background: var(--color-6);
 }
 .article__cards {
+    /* background: yellow; */
+    width: 18vw;
+    padding: 1vw    ;
+    border-radius: 1vw;
+    /* height: 13vw; */
 }
+.article__cards div {
+    display: flex;
+    justify-content: space-between;
+    /* background-color: aqua; */
+}
+.article__cards div h1 {
+    font-family: "RobotoMono-Medium";
+    font-size: 3vw;
+    color: var(--color-2);
+}
+.article__cards div img {
+    width: 1.5vw;
+    align-self: flex-start;
+}
+.article__cards h3 {
+    font-family: "RobotoMono-Medium";
+    font-size: 1.5vw;
+    color: var(--color-1);
+}
+.article__cards p {
+    font-family: "RobotoMono-Regular";
+    color: var(--color-1);
+    font-size: 1vw;
+}
+
